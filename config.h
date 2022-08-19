@@ -4,7 +4,7 @@
 
 const Block blocks[] = {
                /* Command */                 /* Update Interval (Secs) */         /* Update Signal */ 
-	BLOCK("sb-cpu-load-avg.sh",          5,                                                   1),
 	BLOCK("sb-memory.sh",                5,                                                   2),
+	BLOCK("sb-cpu-load-avg.sh",          5,                                                   1),
 	BLOCK("sb-date-time.sh",             1,                                                   3),
 };
