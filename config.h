@@ -4,10 +4,10 @@
 
 const Block blocks[] = {
                /* Command */                 /* Update Interval (Secs) */         /* Update Signal */ 
+	BLOCK("sb-telegram.sh",              5,                                                   5), 
 	BLOCK("sb-disk.sh",                  300,                                                 4),
 	BLOCK("sb-memory.sh",                5,                                                   2),
 	BLOCK("sb-cpu-load-avg.sh",          5,                                                   1),
-	BLOCK("sb-telegram.sh",              5,                                                   5), 
 	BLOCK("sb-internet.sh",              10,                                                  6),
 	BLOCK("sb-date-time.sh",             1,                                                   3),
 };
