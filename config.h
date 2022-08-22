@@ -9,5 +9,6 @@ const Block blocks[] = {
 	BLOCK("sb-memory.sh",                5,                                                   2),
 	BLOCK("sb-cpu-load-avg.sh",          5,                                                   1),
 	BLOCK("sb-internet.sh",              10,                                                  6),
+	BLOCK("sb-volume.sh",                0,                                                  10),
 	BLOCK("sb-date-time.sh",             1,                                                   3),
 };
