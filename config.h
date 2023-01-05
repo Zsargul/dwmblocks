@@ -4,9 +4,9 @@
 
 const Block blocks[] = {
                /* Command */                 /* Update Interval (Secs) */         /* Update Signal */ 
-	BLOCK("sb-disk.sh",                  300,                                                 4),
-	BLOCK("sb-memory.sh",                5,                                                   2),
-	BLOCK("sb-internet.sh",              10,                                                  6),
-     // BLOCK("sb-volume.sh",                0,                                                  10),
+	BLOCK("sb-disk.sh",                  3,                                                   4),
+	BLOCK("sb-memory.sh",                1,                                                   2),
+	BLOCK("sb-internet.sh",              1,                                                   6),
+        BLOCK("sb-volume.sh",                1,                                                  10),
 	BLOCK("sb-date-time.sh",             1,                                                   3),
 };
